@@ -24,7 +24,8 @@ body{
 
 .img-scale{
     height: auto;
-    max-width: 100%; 
+    max-width: 100%;
+    padding: 0 .5rem 0 0; 
 }
 
 .center{
@@ -79,6 +80,12 @@ a{
 
 #DESIGNS{
     background-color: white;
+}
+
+.des-img{
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
 }
 
 /*---------------------Websites Section-----------------------------------------------*/
