@@ -27,16 +27,15 @@ body{
     max-width: 100%; 
 }
 
-.move-right{
-    left: 10%;
-}
-
-.black-color{
-    color: #211927;
-}
-
 .center{
     margin: 0 auto;
+}
+
+.div-mod{
+    height: 100%;
+    width: 80%;
+    position: relative;
+    top: 3.5rem;
 }
 
 /*----------------------Navbar Section-------------------------------------------*/
@@ -68,6 +67,7 @@ a{
 
 
 
+
 /*-------------------------About Section----------------------------------------------*/
 #ABOUT{
     height: 100%;
@@ -79,37 +79,12 @@ a{
 
 #DESIGNS{
     background-color: white;
-    height: 100%;
-    width: 80%;
-    position: relative;
-    top: 3.5rem;
 }
 
 /*---------------------Websites Section-----------------------------------------------*/
 #WEBSITES{
     background-color: white;
-    height: 100%;
-    width: 80%;
-    position: relative;
-    top: 3.5rem;
 }
-/*#WEBSITES{
-    height: 100%;
-    width: 80%;
-    background-color: white;
-    position: relative;
-    display: flex;
-    flex-direction: row-reverse;
-    top: 3.5rem;
-}*/
-
-/*#WEBSITES p{
-    margin: 0;
-    position: absolute;
-    top: 45%;
-    left: 30%;
-}*/
-
 /*.web-img{
     height: auto;
     max-width: 73%;
