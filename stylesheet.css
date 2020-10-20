@@ -1,0 +1,164 @@
+@font-face{
+    /*https://fonts.google.com/specimen/Montserrat?selection.family=Montserrat&sidebar.open=true*/
+    font-family: "Montserrat";
+    src: url("font/Montserrat-Medium.ttf");
+}
+
+html{
+    font-size: 32px;
+}
+
+h1{
+    font-family: Montserrat, sans-serif;
+    color: #211927;
+}
+
+body{
+    margin: 0;
+    background-color: white;
+}
+
+.light_gray{
+    background-color: rgb(243, 243, 243);
+}
+
+.img-scale{
+    height: auto;
+    max-width: 100%; 
+}
+
+.move-right{
+    left: 10%;
+}
+
+.black-color{
+    color: #211927;
+}
+
+.center{
+    margin: 0 auto;
+}
+
+/*----------------------Navbar Section-------------------------------------------*/
+#navbar{
+    height: 3.5rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+.page-links{
+    position: relative;
+    padding: 1rem 0 1rem 0;
+}
+
+#navbar img{
+    height: auto;
+    width: 4rem;
+    margin: .5rem .5rem .5rem .5rem;
+}
+
+a{
+    font-family: Montserrat, sans-serif;
+}
+
+
+
+/*-------------------------About Section----------------------------------------------*/
+#ABOUT{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    top: 3.5rem;
+}
+/*--------------------Designs Section----------------------------------------------*/
+
+#DESIGNS{
+    background-color: white;
+    height: 100%;
+    width: 80%;
+    position: relative;
+    top: 3.5rem;
+}
+
+/*---------------------Websites Section-----------------------------------------------*/
+#WEBSITES{
+    background-color: white;
+    height: 100%;
+    width: 80%;
+    position: relative;
+    top: 3.5rem;
+}
+/*#WEBSITES{
+    height: 100%;
+    width: 80%;
+    background-color: white;
+    position: relative;
+    display: flex;
+    flex-direction: row-reverse;
+    top: 3.5rem;
+}*/
+
+/*#WEBSITES p{
+    margin: 0;
+    position: absolute;
+    top: 45%;
+    left: 30%;
+}*/
+
+/*.web-img{
+    height: auto;
+    max-width: 73%;
+    display: block;
+    position: relative;
+    right: 25%;
+    padding: .5rem;
+}*/
+/*.web-tile{
+    height: 25%;
+    width: 25%;
+    background-color: #f67ee0;
+    position: absolute;
+    margin: 1rem 1rem 0 0;
+    border-radius: 1rem 1rem 1rem 0;
+}*/
+
+/*--------------------------Projects Section------------------------------------*/
+#PROJECTS{
+    background-color: white;
+    height: 100%;
+    width: 80%;
+    position: relative;
+    top: 3.5rem;
+}
+/*#PROJECTS{
+    height: 100%;
+    width: 80%;
+    left: 10%;
+    background-color: green;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    top: 3.5rem;
+}*/
+
+/*--------------------------Social Media Section------------------------------------*/
+
+/*#SOCIAL{
+    height: 100%;
+    width: 80%;
+    left: 10%;
+    background-color: white;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    top: 3.5rem;
+}*/
+
+/*------------------------Footer----------------------------------------*/
