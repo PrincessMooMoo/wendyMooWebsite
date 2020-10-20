@@ -38,7 +38,11 @@ body{
     position: relative;
     top: 3.5rem;
 }
-
+.img-align{
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+}
 /*----------------------Navbar Section-------------------------------------------*/
 #navbar{
     height: 3.5rem;
@@ -82,11 +86,11 @@ a{
     background-color: white;
 }
 
-.des-img{
-    display: flex;
-    justify-content: center;
-    flex-flow: row wrap;
-}
+/* .des-img{ */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* flex-flow: row wrap; */
+/* } */
 
 /*---------------------Websites Section-----------------------------------------------*/
 #WEBSITES{
