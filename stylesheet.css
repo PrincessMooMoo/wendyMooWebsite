@@ -70,9 +70,6 @@ a{
     font-family: Montserrat, sans-serif;
 }
 
-
-
-
 /*-------------------------About Section----------------------------------------------*/
 #ABOUT{
     height: 100%;
@@ -85,33 +82,10 @@ a{
 #DESIGNS{
     background-color: white;
 }
-
-/* .des-img{ */
-    /* display: flex; */
-    /* justify-content: center; */
-    /* flex-flow: row wrap; */
-/* } */
-
 /*---------------------Websites Section-----------------------------------------------*/
 #WEBSITES{
     background-color: white;
 }
-/*.web-img{
-    height: auto;
-    max-width: 73%;
-    display: block;
-    position: relative;
-    right: 25%;
-    padding: .5rem;
-}*/
-/*.web-tile{
-    height: 25%;
-    width: 25%;
-    background-color: #f67ee0;
-    position: absolute;
-    margin: 1rem 1rem 0 0;
-    border-radius: 1rem 1rem 1rem 0;
-}*/
 
 /*--------------------------Projects Section------------------------------------*/
 #PROJECTS{
