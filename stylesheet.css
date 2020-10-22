@@ -44,6 +44,13 @@ body{
     justify-content: center;
     flex-flow: row wrap;
 }
+
+.about-end-mod{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    top: 3.5rem;
+}
 /*----------------------Navbar Section-------------------------------------------*/
 #navbar{
     height: 3.5rem;
@@ -72,12 +79,12 @@ a{
     color: purple;
 }
 
+a:hover{
+    color: pink;
+}
 /*-------------------------About Section----------------------------------------------*/
 #ABOUT{
-    height: 100%;
-    width: 100%;
-    position: relative;
-    top: 3.5rem;
+
 }
 /*--------------------Designs Section----------------------------------------------*/
 
@@ -95,17 +102,9 @@ a{
 }
 
 /*--------------------------Social Media Section------------------------------------*/
-
-/*#SOCIAL{
-    height: 100%;
-    width: 80%;
-    left: 10%;
-    background-color: white;
-    position: relative;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    top: 3.5rem;
-}*/
+#SOCIAL{
+    background-color: purple;
+    margin-top: 5rem;
+}
 
 /*------------------------Footer----------------------------------------*/
