@@ -11,6 +11,7 @@ html{
 h1{
     font-family: Montserrat, sans-serif;
     color: #211927;
+    display: inline-block;
 }
 
 body{
@@ -68,6 +69,7 @@ body{
 
 a{
     font-family: Montserrat, sans-serif;
+    color: purple;
 }
 
 /*-------------------------About Section----------------------------------------------*/
@@ -90,22 +92,7 @@ a{
 /*--------------------------Projects Section------------------------------------*/
 #PROJECTS{
     background-color: white;
-    height: 100%;
-    width: 80%;
-    position: relative;
-    top: 3.5rem;
 }
-/*#PROJECTS{
-    height: 100%;
-    width: 80%;
-    left: 10%;
-    background-color: green;
-    position: relative;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    top: 3.5rem;
-}*/
 
 /*--------------------------Social Media Section------------------------------------*/
 
