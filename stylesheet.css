@@ -76,11 +76,11 @@ body{
 
 a{
     font-family: Montserrat, sans-serif;
-    color: purple;
+    color: #854279;
 }
 
 a:hover{
-    color: pink;
+    color: #f67ee0;
 }
 /*-------------------------About Section----------------------------------------------*/
 #ABOUT{
@@ -103,7 +103,7 @@ a:hover{
 
 /*--------------------------Social Media Section------------------------------------*/
 #SOCIAL{
-    background-color: purple;
+    background-color: #854279;
     margin-top: 5rem;
 }
 
