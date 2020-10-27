@@ -64,11 +64,6 @@ body{
     z-index: 1;
 }
 
-.page-links{
-    /* display: absolute; */
-    /* transform: translate(0, 20%); */
-}
-
 #navbar img{
     height: auto;
     width: 4rem;
@@ -115,6 +110,8 @@ a:hover{
     font-size: .5rem;
 }
 
+
+
 @media(max-width: 740px){
     #ABOUT{
         display: none;
@@ -126,5 +123,19 @@ a:hover{
 
     .div-mod{
         left: 1%
+    }
+    #navbar a{
+        display: inline-block;
+        font-size: .75rem;
+    }
+    #navbar{
+        padding: .3rem;
+        text-align: center;
+    }
+    #SOCIAL{
+        margin-top: 2rem;
+    }
+    #navbar img{
+        margin: 0
     }
   }
