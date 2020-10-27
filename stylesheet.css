@@ -115,8 +115,16 @@ a:hover{
     font-size: .5rem;
 }
 
-@media(max-width: 600px){
+@media(max-width: 740px){
     #ABOUT{
         display: none;
+    }
+
+    h1{
+        font-size: 1.5rem;
+    }
+
+    .div-mod{
+        left: 1%
     }
   }
