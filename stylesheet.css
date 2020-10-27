@@ -53,10 +53,11 @@ body{
 }
 /*----------------------Navbar Section-------------------------------------------*/
 #navbar{
-    height: 3.5rem;
+    height: auto;
     width: 100%;
     display: flex;
     flex-direction: row;
+    align-items: center;
     overflow: hidden;
     position: fixed;
     top: 0;
@@ -64,14 +65,14 @@ body{
 }
 
 .page-links{
-    position: relative;
-    padding: 1rem 0 1rem 0;
+    /* display: absolute; */
+    /* transform: translate(0, 20%); */
 }
 
 #navbar img{
     height: auto;
     width: 4rem;
-    margin: .5rem .5rem .5rem .5rem;
+    margin: .2%
 }
 
 a{
@@ -113,3 +114,7 @@ a:hover{
     color: white;
     font-size: .5rem;
 }
+
+@media(max-width: 600px){
+
+  }
