@@ -116,5 +116,7 @@ a:hover{
 }
 
 @media(max-width: 600px){
-
+    #ABOUT{
+        display: none;
+    }
   }
