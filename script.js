@@ -11,8 +11,8 @@ function imageEnlarge(image) {
     document.getElementById(image).style.position='relative';
 }
 
-function imageReset() {
-    document.getElementById('design').style.height ="auto";
-    document.getElementById('design').style.width='auto';
-    document.getElementById('design').style.position="relative";
+function imageReset(image) {
+    document.getElementById(image).style.height ="auto";
+    document.getElementById(image).style.width='auto';
+    document.getElementById(image).style.position="relative";
 }
